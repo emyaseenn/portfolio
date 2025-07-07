@@ -104,3 +104,23 @@
 .animate-float {
   animation: float 3s ease-in-out infinite;
 }
+/* WhatsApp Button Style - ADD THESE LINES HERE, STARTING ON LINE 107 */
+.btn-whatsapp {
+    background-color: #25D366; /* WhatsApp's green color */
+    color: white; /* Makes the text white */
+    border: 1px solid #25D366; /* Gives it a green border */
+    /* These next lines help it look like your other buttons */
+    padding: 0.75rem 1.5rem; /* Matches padding from other buttons */
+    border-radius: 0.5rem; /* Makes it slightly rounded */
+    font-weight: 600; /* Makes text bold */
+    display: inline-flex; /* Aligns icon and text */
+    align-items: center; /* Centers items vertically */
+    justify-content: center; /* Centers items horizontally */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+    text-decoration: none; /* Removes underline */
+}
+
+.btn-whatsapp:hover {
+    background-color: #1DA851; /* Darker green when you hover over it */
+    border-color: #1DA851;
+}
